@@ -1,0 +1,113 @@
+
+* {
+ /* fallback for old browsers */
+color: #464646;
+font-family: 'Playfair Display', cursive;
+}
+
+h2 {
+	font-family: 'Source Code Pro', monospace;
+}
+
+.hide {
+	display: none;
+}
+
+.image-content {
+    position   : inherit;
+    bottom     : 0;
+    left       : 0;
+    right      : 0;
+    text-align : center;
+}
+
+.face{
+	width: 20%;
+}
+
+
+/*------------------------------------------------------------------
+      						RESET STYLES
+-------------------------------------------------------------------*/
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {	
+	display: inline-block;
+	text-decoration: none;
+}
+
+/*------------------------------------------------------------------
+      						SECTION STYLES
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+      						RESET STYLES
+-------------------------------------------------------------------*/
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {	
+	display: inline-block;
+	text-decoration: none;
+}
+
+/*------------------------------------------------------------------
+      						SECTION STYLES
+-------------------------------------------------------------------*/
+
+section { 
+    margin: 50px 0;
+}
+
+section ul {
+	text-align: left;
+}
+
+section a {
+	padding: 7px;
+    color: #464646;
+}
+
+section a:not(:first-child) {
+	margin-left: 20px;
+}
+
+section i {
+	vertical-align: middle;
+	-webkit-transition: color .3s ease-in-out;
+	transition: color .3s ease-in-out;	
+}
+
+section a:nth-child(1):hover i {
+	color: #3B5998;
+}
+
+section a:nth-child(2):hover i {
+	color: #4099FF;
+}
+
+section a:nth-child(3):hover i {
+	color: #007bb6;
+}
+
+section a:nth-child(4):hover i {
+	color: #ccc;
+}
+
+section a:nth-child(5):hover i {
+	color: steelblue;
+}
+
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+
